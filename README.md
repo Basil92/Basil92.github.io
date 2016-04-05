@@ -2,6 +2,9 @@
 Test Task: Pokedex
 
 # Go to [Basil92](Basil92.github.io) for run app
+* index.js - only for js code
+* index.html - only html
+* style.css - custom styles
 
 # Bonus
 * Adaptive styling (able to view this on all screen widths)
