@@ -24,7 +24,7 @@ body {
 
 .pokemon>div {
 	background: #f4f4f4;
-	margin: 0px 10px;
+	margin: 0px auto;
 	border: 1px solid #337ab7;
 	border-radius: 6px;
 	width: 240px;
