@@ -1,0 +1,200 @@
+body {
+	background-image: url("http://www.pokemon20.com/assets/img/global/bg_pattern.jpg");
+	font-family: Helvetica,​Arial,​sans-serif;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.each-pokemon>div {
+	height: 200px;
+	border: 1px solid #337ab7;
+	margin: 5px;
+	border-radius: 6px;
+	background: #f2f2f2
+}
+
+.each-pokemon img {
+	margin-top: 10px;
+	height: 120px;
+}
+
+.pokemon {
+	position: relative;
+}
+
+.pokemon>div {
+	background: #f4f4f4;
+	margin: 0px 10px;
+	border: 1px solid #337ab7;
+	border-radius: 6px;
+	width: 240px;
+}
+
+.pokemon strong {
+	font-size: 200%;
+}
+
+.pokemon img {
+	margin: 20px auto 5px;
+}
+
+.types {
+	border-radius: 2px;
+	display: inline;
+	padding: 1px 6px;
+	margin: 3px;
+}
+
+.types:select {
+	background-color: none;
+}
+
+/*table, td {
+	border: 1px solid black;
+}*/
+
+.prop-table {
+	margin: 5px;
+}
+
+tr:hover td {
+  	background-color: #c3c3c3;
+}
+
+/*table {
+	width: 100%;
+}
+
+td {
+	width: 50%;
+}*/
+
+@media (min-width: 991px) {
+    .pokemon>div {
+        position: fixed;
+    }
+}
+
+.each-pokemon .bug {
+	background-color: #A8B820;
+}
+
+.each-pokemon .flying {
+	background-color: #A890F0;
+}
+
+.each-pokemon .normal {
+	background-color: #A8A878;
+}
+
+.each-pokemon .fire {
+	background-color: #F08030;
+}
+
+.each-pokemon .water {
+	background-color: #9DB7F5;
+}
+
+.each-pokemon .poison {
+	background-color: #A040A0;
+}
+
+.each-pokemon .ice {
+	background-color: #98D8D8;
+}
+
+.each-pokemon .electric {
+	background-color: #F8D030;
+}
+
+.each-pokemon .fairy {
+	background-color: #EE99AC;
+}
+
+.each-pokemon .fighting {
+	background-color: #C03028;
+}
+
+.each-pokemon .ground {
+	background-color: #E0C068;
+}
+
+.each-pokemon .grass {
+	background-color: #78C850;
+}
+
+.each-pokemon .psychic {
+	background-color: #F85888;
+}
+
+.each-pokemon .rock {
+	background-color: #B8A038;
+}
+
+.each-pokemon .steel {
+	background-color: #B8B8D0;
+}
+
+.each-pokemon .ghost {
+	background-color: #705898;
+}
+
+.each-pokemon .dragon {
+	background-color: #7038F8;
+}
+
+.each-pokemon .dark {
+	background-color: #705848;
+}
+
+#loadMore {
+	margin: 15px auto;
+}
+
+.form-control {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+footer {
+    color: #333;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+header {
+	font-size: 60px;
+	font-weight: 500px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#selected {
+	animation-timing-function: easy-end;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes bounce{
+    0%, 100% {transform: translateY(0);} 
+    10% {transform: translateY(-20px);} 
+    20% {transform: translateY(0px);} 
+    30% {transform: translateY(-15px);} 
+    40% {transform: translateY(0px);} 
+    50% {transform: translateY(-10px);} 
+    60% {transform: translateY(0px);} 
+    70% {transform: translateY(-5px);} 
+    80% {transform: translateY(0px);} 
+    90% {transform: translateY(-2px);} 
+}
+
+.loading{
+	text-align: center;
+	font-size: 5vh;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+}
