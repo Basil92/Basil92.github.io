@@ -1,7 +1,7 @@
 # Basil92.github.io
 Test Task: Pokedex
 
-# Go to [Basil92](Basil92.github.io) for run app
+# Go to [Basil92](http://basil92.github.io/) for run app
 * index.js - only for js code
 * index.html - only html
 * style.css - custom styles
