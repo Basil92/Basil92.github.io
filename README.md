@@ -1,7 +1,7 @@
 # Basil92.github.io
 Test Task: Pokedex
 
-# Go to Basil92.github.io for run app
+# Go to [Basil92](Basil92.github.io) for run app
 
 # Bonus
 * Adaptive styling (able to view this on all screen widths)
