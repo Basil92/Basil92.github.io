@@ -2,7 +2,7 @@
 Test Task: Pokedex
 
 # Go to [Basil92](http://basil92.github.io/) for run app
-* index.js - only for js code
+* index.js - only for js code and comments
 * index.html - html markup + templates
 * style.css - custom styles
 
