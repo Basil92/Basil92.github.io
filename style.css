@@ -13,6 +13,10 @@ body {
 	background: #f2f2f2
 }
 
+.each-pokemon>div:hover {
+	cursor: pointer;
+}
+
 .each-pokemon img {
 	margin-top: 10px;
 	height: 120px;
@@ -24,10 +28,9 @@ body {
 
 .pokemon>div {
 	background: #f4f4f4;
-	margin: 0px auto;
 	border: 1px solid #337ab7;
 	border-radius: 6px;
-	width: 240px;
+	min-width: 240px;
 }
 
 .pokemon strong {
@@ -49,10 +52,6 @@ body {
 	background-color: none;
 }
 
-/*table, td {
-	border: 1px solid black;
-}*/
-
 .prop-table {
 	margin: 5px;
 }
@@ -61,17 +60,13 @@ tr:hover td {
   	background-color: #c3c3c3;
 }
 
-/*table {
-	width: 100%;
-}
-
-td {
-	width: 50%;
-}*/
-
 @media (min-width: 991px) {
     .pokemon>div {
-        position: fixed;
+		position: fixed;
+		height: 80vh;
+		top: 10vh;
+		right: 7%;
+		overflow-y: auto;
     }
 }
 
