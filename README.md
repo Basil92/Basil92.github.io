@@ -3,7 +3,7 @@ Test Task: Pokedex
 
 # Go to [Basil92](http://basil92.github.io/) for run app
 * index.js - only for js code
-* index.html - only html
+* index.html - html markup + templates
 * style.css - custom styles
 
 # Bonus
