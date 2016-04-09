@@ -30,52 +30,51 @@
 
 	  <script id="template-select-pokemon" type="text/template">
 	 	<div>
-				<div><img id='selected' src='http://pokeapi.co/media/img/%pkdx_id%.png'></div>
+			<div><img id='selected' src='http://pokeapi.co/media/img/%pkdx_id%.png'></div>
 	  		<div><strong>%name% #%pkdx_id% </strong></div>
-				<div class="prop-table">
-						<table class="table">
-						    <tbody>
-							      <tr><td>Type</td><td>%pokeTypes% </td></tr>
-							      <tr><td>Attack</td><td>%attack% </td></tr>
-							      <tr><td>Defense</td><td>%defense% </td></tr>
-							      <tr><td>HP</td><td>%hp% </td></tr>
-							      <tr><td>SP Attack</td><td>%sp_atk%</td></tr>
-							      <tr><td>SP Defense</td><td>%sp_def%</td></tr>
-							      <tr><td>Spped</td><td>%speed%</td></tr>
-							      <tr><td>Weight</td><td>%weight%</td></tr>
-							      <tr><td>Total moves</td><td>%totalMoves%</td></tr>
-							  </tbody>
+			<div class="prop-table">
+				<table class="table">
+					<tbody>
+						<tr><td>Type</td><td>%pokeTypes% </td></tr>
+						<tr><td>Attack</td><td>%attack% </td></tr>
+						<tr><td>Defense</td><td>%defense% </td></tr>
+						<tr><td>HP</td><td>%hp% </td></tr>
+						<tr><td>SP Attack</td><td>%sp_atk%</td></tr>
+						<tr><td>SP Defense</td><td>%sp_def%</td></tr>
+						<tr><td>Spped</td><td>%speed%</td></tr>
+						<tr><td>Weight</td><td>%weight%</td></tr>
+						<tr><td>Total moves</td><td>%totalMoves%</td></tr>
+					</tbody>
 		    		</table>
-	      </div>
-	  </div>
-	  </script>
-
-	    <script id="template-form-select" type="text/template">
-	      <option value="%type%">%type%</option>
-	    </script>
+	      		</div>
+	  	</div>
+	</script>
+	<script id="template-form-select" type="text/template">
+		<option value="%type%">%type%</option>
+	</script>
 	</head>
 	<body>
 		
 	<header>	
-			<h1 class="header">Pokedex</h1>   
+		<h1 class="header">Pokedex</h1>   
 	</header>
 
 	<div class="container">
-		<div class="row">
-		    <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
-		    	<div class="continer-fluid">
+	<div class="row">
+		<div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+			<div class="continer-fluid">
 			      	<select class="form-control" id="container-for-form"></select>
 			        <div class="row pokemonsList">
 			        	<div class="loading">Loading...</div>
 			        </div>
 			        <button type="button" class="btn btn-primary btn-block" id="loadMore">Load More</button> 
 		        </div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-			    <div class="container pokemon" id ="selected-pokemon">
-		        </div>         
-		    </div>  
 		</div>
+		<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			<div class="container pokemon" id ="selected-pokemon">
+		       	</div>         
+		</div>  
+	</div>
 	</div>
 
 	<footer >
